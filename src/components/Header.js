@@ -55,7 +55,7 @@ const Header = () => {
         <img  className="w-44 mx-auto md:mx-0" 
         src={LOGO}
         alt="logo"/>
-        {user!==null && <div className='flex p-2'>
+        {user!==null && <div className='flex p-2 justify-between'>
           {/* <img alt="usericon"
           className='w-12 h-12'
           /> */}
